@@ -1,3 +1,9 @@
-require('./Gulp/tasks/styles');
-require('./Gulp/tasks/watch');
-require('./Gulp/tasks/sprites');
+require('./gulp/tasks/styles');
+require('./gulp/tasks/watch');
+require('./gulp/tasks/sprites');
+require('./gulp/tasks/scripts');
+
+
+
+
+
