@@ -574,7 +574,6 @@ a {
 .wrapper--no-padding-until-medium {
         padding-left: 0;
         padding-right: 0;
-
     }
 
 @media (min-width: 800px) {
@@ -582,6 +581,20 @@ a {
 .wrapper--no-padding-until-medium {
             padding-left: 18px;
             padding-right: 18px
+    }
+    }
+
+.wrapper--no-padding-until-large {
+            padding-left: 0;
+            padding-right: 0;
+
+    }
+
+@media (min-width: 1010px) {
+
+.wrapper--no-padding-until-large {
+                padding-left: 18px;
+                padding-right: 18px
 
     }
     }
@@ -769,6 +782,50 @@ a {
         }
     }
 
+@media (min-width: 1010px) {
+
+        .row--gutters > div {
+            padding-right: 65px;
+        }
+    
+        .row--gutters-large > div {
+            padding-right: 100px;
+        }
+    
+    
+        .row__b-margin-until-large {
+            margin-bottom: 1.5rem;
+        }
+
+        .row__b-margin-until-large {
+            margin-bottom: 0;
+        }
+        
+        .row__large-4 {
+            float: left;
+            width: 33.33%;
+        }
+
+        .row__large-4-larger {
+            width: 37%
+        }
+
+        .row__large-6 {
+            float:left;
+            width:50%;
+        
+        }
+
+        .row__large-8 {
+            float: left;
+            width: 66.66%;
+        }
+
+        .row__large-8-smaller {
+            width: 63%
+        }
+    }
+
 /* begin equal height rules */
 
 @media (min-width: 800px) {
@@ -788,20 +845,37 @@ a {
             display: flex;
         }
 
+@media (min-width: 1010px) {
+
+.row--equal-height-large {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex
+
+}
+    }
+
+.row--equal-height-large > div {
+            float: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
 .generic-content-creator p {
         font-weight: 300;
         line-height: 1.65;
         margin-left: 1em;
         margin-right: 1em;
 
-        }
+    }
 
 @media (min-width: 530px) {
 
 .generic-content-creator p {
             font-size: 1.125rem
 
-        }
+    }
     }
 
 .generic-content-creator p a {
@@ -906,7 +980,7 @@ a {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
 .testimonial {
         margin-bottom: 0;
@@ -950,6 +1024,28 @@ a {
         margin: 0.25rem 0 1rem 0;
 
 
+    }
+
+.site-footer {
+    background-color: #2f5572;
+    color: #FFF;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.site-footer__text {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+
+@media (min-width: 800px) {
+
+.site-footer__text {
+        display: inline;
+        margin-bottom: 0;
+        margin-right: 1.4rem
+}
     }
 
 
